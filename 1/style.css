@@ -1,0 +1,254 @@
+:root{
+    --yellow:#FFCC00;
+    --white:#fff;
+    --grey:#666666;
+    --hover:#3a3a3a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    scroll-behavior: smooth;
+}
+
+.contrainer{
+max-width:auto;
+width: auto;
+margin: 0 auto;
+background-color: var(--yellow);
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100vw;
+    background-color: var(--yellow);
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    
+}
+
+
+
+.logo h3 {
+    margin-left: 20px;
+    margin-top: 4px;
+    color: var(--grey);
+}
+
+ul.menu{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    justify-content: center;
+    margin-right: 20px;
+    position: relative;
+    top: 7px;
+}
+
+ul.menu li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    margin: 0 .05rem;
+    /*background-color: #927500;*/
+    width: 11vw;
+    height: 61px;
+}
+ul.menu li a {
+    color : var(--grey);
+    text-decoration: none;
+}
+
+.banner img{
+    width: 1349px;
+    height: 680px;
+}
+
+.con-history{
+    margin-top:10rem;
+    margin-left: 3rem;
+    margin-bottom: 10rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intext{
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+.box1{
+    display: flex;
+    box-sizing: border-box;
+    height: 500px;
+    width: 800px;
+    background-color: #FFCC00;
+    margin-right: 7rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
+}
+
+.box1 img {
+    width: 750px;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+    top: -5px;
+    left: -20px;
+}
+
+.con-product{
+    margin-top:3rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.con-product .intext{
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+.con-product .box1{
+    box-sizing: border-box;
+    height: 500px;
+    width: 270px;
+    background-color: #FFCC00;
+    margin-right: 7rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
+}
+
+.con-product .box1 img {
+    width: 250px;
+    height: 230px;
+    border-radius: 20px;
+    position: relative;
+    top: -5px;
+    left: -35px;
+}
+
+.con-product .box2{
+    box-sizing: border-box;
+    height: 500px;
+    width: 270px;
+    background-color: #FFCC00;
+    margin-right: 7rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
+}
+
+.con-product .box2 img {
+    width: 250px;
+    height: 230px;
+    border-radius: 20px;
+    position: relative;
+    top: -5px;
+    left: -35px;
+}
+
+.con-product .box3{
+    box-sizing: border-box;
+    height: 500px;
+    width: 270px;
+    background-color: #FFCC00;
+    margin-right: 7rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
+}
+
+.con-product .box3 img {
+    width: 250px;
+    height: 230px;
+    border-radius: 20px;
+    position: relative;
+    top: -5px;
+    left: -35px;
+}
+
+.con-station{
+    margin-top:10rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.content2{
+    box-sizing: border-box;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    margin-bottom: 4rem;
+}
+
+.box-con{
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+.box-con p{
+    position: relative;
+    top: 30px;
+    left: 45px;
+}
+
+.st-box1 img{
+    box-sizing: border-box;
+    width: 600px;
+    height: 300px;
+    border: 4px solid #666666;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
+}
+
+.content3{
+    box-sizing: border-box;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.box-con2{
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: -20px;
+}
+
+.box-con2 p{
+    position: relative;
+    top: 30px;
+    left: -45px;
+}
+
+.st-box2 img{
+    box-sizing: border-box;
+    width: 600px;
+    height: 300px;
+    border: 4px solid #666666;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
+}
+
+.nav-con .menu li a:hover{
+    background-color: var(--hover);
+    color: var(--white);
+}
+.nav-con .menu li a:focus {
+    background-color: var(--hover);
+    color: var(--white);
+}
